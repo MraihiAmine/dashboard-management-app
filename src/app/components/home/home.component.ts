@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   public doughnutChartOptions: ChartOptions = {
     responsive: true,
     legend: {
-      display: true,
+      display: false,
     },
     cutoutPercentage: 80,
   };
